@@ -1,0 +1,152 @@
+body {
+    background-color: #32543f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.s1 {
+    background-image: url(Shrub.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #9ea6ac;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.s2 {
+    height: 50rem;
+    margin: 3rem;
+}
+
+.Flower {
+    background-color: #1e3627;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    color: #9ea6ac;
+    text-align: center;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.Flower:hover {
+    border: white solid 0.1rem;
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.Flower img {
+    justify-content: center;
+}
+
+.hedges {
+    background-color: #1e3627;
+    color: #9ea6ac;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    transform: scale(1);
+    transition: 1s;
+}
+.hedges:hover {
+    border: white solid 0.1rem;
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.shrubs {
+    background-color: #1e3627;
+    color: #9ea6ac;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    transform: scale(1);
+    transition: 1s;
+}
+.shrubs:hover {
+    border: white solid 0.1rem;
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: auto;
+}
+
+nav {
+    background-color: #9ea6ac;
+    border-radius: 2rem;
+    height: 4rem;
+}
+a {
+    text-decoration: none;
+    justify-content: center;
+    color: #1e3627;
+}
+
+nav ul {
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+section {
+    display: flex;
+    position: relative;
+    top: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+article {
+    flex: 1;
+    width: 10rem;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 2rem;
+}
+
+footer div img {
+    height: 6rem;
+    width: 3em;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div p {
+    font-size: large;
+    color: #9ea6ac;
+    text-align: right;
+}
